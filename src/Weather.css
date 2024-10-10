@@ -1,0 +1,21 @@
+footer{
+    text-align:center;
+}
+
+.Weather{
+margin-top: 20px;
+border: 1px solid grey;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.btn{
+  margin: 4px; 
+  
+
+}
+.search-bar{
+    padding: 3px;
+}
