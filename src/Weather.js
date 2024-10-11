@@ -4,13 +4,28 @@ import "./Weather.css"
 
 export default function Weather () {
     return(
-        <div className=" Weather">
-        <form> 
-                <input type="Search" placeholder="Enter a City" className="search-bar"/>
-                <input type="submit" value="Search" className="btn btn-primary"/>
-                
-            </form>
-        Cape Town
+        <div className="Weather">
+       <form>
+        <div className="row">
+            <div className="col-9">
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                className="searchbar w-100"
+                autoFocus="on" 
+            
+              />
+            </div>
+            <div className="col-3">
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-primary w-100"
+              />
+              </div>
+              </div>
+       </form>
+        <h1>Cape Town</h1>
         <ul>
           <li>Tuesday:1700</li>
           <li>Partly cloudy</li>
@@ -21,7 +36,8 @@ export default function Weather () {
               src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/D200PartlySunnyV2.svg"
               alt="partly sunny"
             />
-            16℃
+            <span className="temperature" >16</span> 
+            <span className="unit"> ℃</span>
           </div>
           <div className="col-6">
             <ul>

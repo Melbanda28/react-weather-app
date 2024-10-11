@@ -1,21 +1,50 @@
-footer{
-    text-align:center;
-}
-
 .Weather{
 margin-top: 20px;
 border: 1px solid grey;
+border-radius:4px;
+padding:16px;
+font-family:arial, sans-serif;
 }
 
-form{
-    margin-top: 20px;
+.Weather form{
+   margin-bottom:20px; 
+}
+.Weather h1{
+    font-size:24px;
+    font-weight:100px;
+    margin:10px 0 0 0;
+    
+}
+.Weather ul{
+    list-style: none;
+
 }
 
 .btn{
-  margin: 4px; 
-  
+  margin: 2px; 
+  border-radius:10px;
 
 }
-.search-bar{
-    padding: 3px;
+
+.btn:hover{
+    background-color:white;
+    color:blue;
+}
+.searchbar{
+    padding: 5px;
+    border-radius:10px;
+}
+.Weather .temperature{
+   font-size:64px;
+   font-weight:400; 
+}
+
+.Weather .unit{
+position:relative;
+top:-32px;
+font-size:16px;
+}
+
+.Weather img{
+    margin-bottom:40px;
 }
