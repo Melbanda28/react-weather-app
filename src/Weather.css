@@ -17,6 +17,7 @@ font-family:arial, sans-serif;
 }
 .Weather ul{
     list-style: none;
+    padding: 0;
 
 }
 
