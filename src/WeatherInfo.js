@@ -14,7 +14,7 @@ export default function WeatherInfo(props){
         <div className="row">
           <div className="col-6">
             <img
-              src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/D200PartlySunnyV2.svg"
+              src={props.data.iconUrl}
               alt={props.data.description}
             />
             <span className="temperature">
