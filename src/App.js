@@ -15,6 +15,8 @@ function App() {
           <a href="https://github.com/Melbanda28">Mellania Banda</a>
           {""} and is open-sourced on {""}
           <a href="https://github.com/Melbanda28/react-weather-app">Github</a>
+          {""} and hosted on {""}
+          <a href="https://react-weather-namhlanje.netlify.app/">Netlify</a>
         </p>
       </footer>
     </div>
