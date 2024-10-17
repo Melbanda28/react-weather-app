@@ -35,19 +35,26 @@ font-family:arial, sans-serif;
     padding: 5px;
     border-radius:10px;
 }
+.Weather canvas{
+    margin-right: 10px;
+    margin-top:10px;
+    display: inline-block;
+
+
+}
 .Weather .temperature{
-   font-size:64px;
-   font-weight:400; 
+   font-size:54px;
+   font-weight:400px;
+   size: px;
+
+   
 }
 
 .Weather .unit{
 position:relative;
-top:-32px;
+top:-28px;
 font-size:16px;
 font-family: Arial, sans-serif;
+margin-left: 2px;
 }
 
-.Weather img{
-    margin-bottom:40px;
-    margin-right:6px;
-}
