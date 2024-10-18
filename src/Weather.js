@@ -75,7 +75,7 @@ if (weatherData.ready){
           <p>
             This project was coded by {""}
             <a
-              href="https://github.com/Melbanda28"
+              href="https://www.shecodes.io/graduates/123422-mellania-banda"
               target="_blank"
               rel="noreferrer"
             >
