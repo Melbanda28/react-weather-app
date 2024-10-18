@@ -14,7 +14,7 @@ export default function Weather (props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
-      coordinates:response.daa.coord,
+      coordinates:response.data.coord,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
