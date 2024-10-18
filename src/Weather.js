@@ -69,8 +69,36 @@ if (weatherData.ready){
             </div>
           </div>
         </form>
-        < WeatherInfo data={weatherData} />
-        <WeatherForecast coordinates={weatherData.coordinates}/>
+        <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
+        <footer>
+          <p>
+            This project was coded by {""}
+            <a
+              href="https://github.com/Melbanda28"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Mellania Banda
+            </a>
+            {""} and is open-sourced on {""}
+            <a
+              href="https://github.com/Melbanda28/react-weather-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            {""} and hosted on {""}
+            <a
+              href="https://react-weather-namhlanje.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </p>
+        </footer>
       </div>
     );
 }
